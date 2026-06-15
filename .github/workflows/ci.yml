@@ -5,30 +5,39 @@ on:
   pull_request:
 
 jobs:
-  build:
+  backend:
+    name: Backend (pytest)
     runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: backend
+      SECRET_KEY: ci-secret-key
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
+          cache: pip
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r backend/requirements.txt
+          pip install -r backend/requirements.txt -r backend/requirements-dev.txt
+      - name: Run tests
+        run: pytest backend/tests -q
 
-      - name: Run gates
-        env:
-          PYTHONPATH: backend
-        run: |
-          python scripts/check_no_deprecated_imports.py
-          python scripts/smoke_generate_finalize.py
-          python scripts/contract_finalize_vector_stub.py
-          python scripts/test_post_gen_validator.py
-          python scripts/test_review_binding.py
-          python scripts/test_vector_retry_stub.py
-          if [ -d tests ]; then pytest -q; else echo "pytest skipped: no tests directory"; fi
+  frontend:
+    name: Frontend (type-check + build)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install dependencies
+        run: npm ci
+      - name: Type-check and build
+        run: npm run build

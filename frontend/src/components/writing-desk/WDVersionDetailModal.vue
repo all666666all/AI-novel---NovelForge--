@@ -1,4 +1,3 @@
-<!-- AIMETA P=版本详情弹窗_版本信息展示|R=版本对比_历史|NR=不含版本管理|E=component:WDVersionDetailModal|X=ui|A=版本弹窗|D=vue|S=dom|RD=./README.ai -->
 <template>
   <div v-if="show" class="md-dialog-overlay">
     <div class="md-dialog w-full max-w-4xl m3-detail-dialog">

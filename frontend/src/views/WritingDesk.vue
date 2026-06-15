@@ -1,4 +1,3 @@
-<!-- AIMETA P=写作台_章节编辑主页面|R=写作界面_章节管理|NR=不含详情展示|E=route:/novel/:id#component:WritingDesk|X=ui|A=写作台|D=vue|S=dom,net|RD=./README.ai -->
 <template>
   <div class="m3-shell h-screen flex flex-col overflow-hidden">
     <WDHeader

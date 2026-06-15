@@ -1,4 +1,3 @@
-# AIMETA P=创意指导系统_写作建议生成|R=优劣势分析_指导建议|NR=不含内容生成|E=CreativeGuidanceSystem|X=internal|A=系统类|D=none|S=none|RD=./README.ai
 """
 创意指导系统
 基于情感分析和故事轨迹分析，提供智能的写作建议和创意指导

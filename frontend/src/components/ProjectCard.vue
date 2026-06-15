@@ -1,4 +1,3 @@
-<!-- AIMETA P=项目卡片_小说项目展示|R=项目信息卡片|NR=不含编辑功能|E=component:ProjectCard|X=internal|A=卡片组件|D=vue|S=dom|RD=./README.ai -->
 <template>
   <div class="novel-card" @click="$emit('detail', project.id)">
     <!-- Delete Icon Button -->

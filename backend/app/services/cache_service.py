@@ -1,4 +1,3 @@
-# AIMETA P=缓存服务_Redis缓存操作|R=缓存读写_失效|NR=不含业务逻辑|E=CacheService|X=internal|A=服务类|D=redis|S=cache|RD=./README.ai
 import redis
 import json
 import logging

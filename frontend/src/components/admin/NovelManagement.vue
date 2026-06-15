@@ -1,4 +1,3 @@
-<!-- AIMETA P=小说管理_管理员小说列表管理|R=小说列表_删除_统计|NR=不含普通用户功能|E=component:NovelManagement|X=ui|A=管理组件|D=vue|S=dom,net|RD=./README.ai -->
 <template>
   <n-card class="novel-management-card" size="large" :bordered="false">
     <template #header>

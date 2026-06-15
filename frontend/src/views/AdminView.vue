@@ -1,4 +1,3 @@
-<!-- AIMETA P=管理后台_管理员控制台|R=管理面板_子组件切换|NR=不含普通用户功能|E=route:/admin#component:AdminView|X=ui|A=管理面板|D=vue|S=dom,net|RD=./README.ai -->
 <template>
   <n-layout has-sider class="admin-layout">
     <n-layout-sider
@@ -12,7 +11,7 @@
       @expand="collapsed = false"
     >
       <div class="sider-header">
-        <span class="logo" v-if="!collapsed">Arboris 管理台</span>
+        <span class="logo" v-if="!collapsed">NovelForge Admin</span>
         <span class="logo-small" v-else>管理</span>
       </div>
       <n-menu

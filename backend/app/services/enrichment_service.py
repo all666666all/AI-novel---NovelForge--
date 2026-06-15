@@ -1,4 +1,3 @@
-# AIMETA P=章节扩写服务_字数不足自动扩写|R=字数检测_扩写生成|NR=不含生成逻辑|E=EnrichmentService|X=internal|A=扩写_字数控制|D=llm_service|S=none|RD=./README.ai
 """
 章节扩写服务 (EnrichmentService)
 

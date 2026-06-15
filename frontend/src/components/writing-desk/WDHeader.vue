@@ -1,4 +1,3 @@
-<!-- AIMETA P=写作台头部_顶部导航栏|R=导航_操作按钮|NR=不含内容区域|E=component:WDHeader|X=ui|A=头部组件|D=vue|S=dom|RD=./README.ai -->
 <template>
   <div class="md-top-app-bar md-elevation-1 flex-shrink-0 z-30 backdrop-blur-md">
     <div class="w-full px-4 sm:px-6 lg:px-8">

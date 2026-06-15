@@ -1,4 +1,3 @@
-<!-- AIMETA P=编辑章节弹窗_章节信息编辑|R=章节编辑表单|NR=不含内容生成|E=component:WDEditChapterModal|X=ui|A=编辑弹窗|D=vue|S=dom|RD=./README.ai -->
 <template>
   <div v-if="show" class="md-dialog-overlay" @click.self="$emit('close')">
     <div class="md-dialog w-full max-w-lg m3-edit-dialog p-8" :class="show ? 'scale-100 opacity-100' : 'scale-95 opacity-0'">

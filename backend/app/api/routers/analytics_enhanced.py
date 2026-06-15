@@ -1,4 +1,3 @@
-# AIMETA P=增强分析API_多维情感和故事轨迹|R=多维情感_轨迹分析_创意指导|NR=不含基础分析|E=route:GET_/api/analytics/enhanced/*|X=http|A=多维情感_轨迹_指导|D=fastapi,redis|S=db,cache|RD=./README.ai
 """
 增强的情感曲线和故事分析 API（已废弃，统一管线收敛后不再提供实际分析）。"""
 

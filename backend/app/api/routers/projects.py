@@ -1,4 +1,3 @@
-# AIMETA P=项目资源API_宪法人格记忆等|R=项目资源管理|NR=不含生成逻辑|E=route:GET_PUT_/api/projects/*|X=http|A=资源接口|D=fastapi,sqlalchemy|S=db|RD=./README.ai
 from typing import Any, Dict, List, Optional
 
 from fastapi import APIRouter, Body, Depends, HTTPException

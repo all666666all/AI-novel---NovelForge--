@@ -1,4 +1,3 @@
-# AIMETA P=写作上下文构建_信息可见性过滤|R=角色登场检测_蓝图裁剪_已知未知分离|NR=不含LLM调用|E=none|X=internal|A=过滤_构建|D=none|S=none|RD=./README.ai
 """
 WriterContextBuilder: 写作层信息可见性过滤服务
 

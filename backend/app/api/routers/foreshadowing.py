@@ -1,4 +1,3 @@
-# AIMETA P=伏笔API_伏笔管理和回收追踪|R=伏笔CRUD_回收追踪|NR=不含自动分析|E=route:GET_POST_/api/foreshadowing/*|X=http|A=伏笔CRUD_回收|D=fastapi,sqlalchemy|S=db|RD=./README.ai
 """伏笔管理 API 接口"""
 import logging
 from typing import Optional, List

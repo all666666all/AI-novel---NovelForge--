@@ -1,4 +1,3 @@
-<!-- AIMETA P=分层优化器_内容优化界面|R=优化建议展示|NR=不含内容修改|E=component:LayeredOptimizer|X=internal|A=优化器|D=vue|S=dom,net|RD=./README.ai -->
 <template>
   <div class="layered-optimizer">
     <!-- 标题 -->

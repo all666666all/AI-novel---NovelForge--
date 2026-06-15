@@ -1,4 +1,3 @@
-# AIMETA P=AI评审服务_多版本对比选优|R=版本评分_最佳选择_改进建议|NR=不含数据存储|E=none|X=internal|A=评审_对比|D=openai|S=net|RD=./README.ai
 """
 AIReviewService: AI 评审服务
 

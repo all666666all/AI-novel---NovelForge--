@@ -1,4 +1,3 @@
-<!-- AIMETA P=伏笔区_伏笔管理展示|R=伏笔列表_回收状态|NR=不含分析逻辑|E=component:ForeshadowingSection|X=ui|A=伏笔组件|D=vue|S=dom,net|RD=./README.ai -->
 <template>
   <div class="foreshadowing-section">
     <!-- Header -->

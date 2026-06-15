@@ -1,4 +1,3 @@
-# AIMETA P=定稿服务_章节定稿和记忆更新|R=定稿流程_摘要更新_状态更新_向量库写入|NR=不含生成逻辑|E=FinalizeService|X=internal|A=定稿_记忆更新|D=llm_service_vector_store_service|S=none|RD=./README.ai
 """
 定稿服务 (FinalizeService)
 

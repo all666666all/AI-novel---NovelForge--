@@ -1,4 +1,3 @@
-# AIMETA P=伏笔模型_伏笔和回收追踪|R=伏笔表_回收表_提醒表_分析表|NR=不含业务逻辑|E=Foreshadowing_ForeshadowingResolution|X=internal|A=ORM模型|D=sqlalchemy|S=none|RD=./README.ai
 """伏笔管理数据模型"""
 from __future__ import annotations
 

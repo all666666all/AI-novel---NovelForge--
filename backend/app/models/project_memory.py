@@ -1,4 +1,3 @@
-# AIMETA P=项目记忆模型_全局摘要和剧情线追踪|R=项目记忆表|NR=不含业务逻辑|E=ProjectMemory|X=internal|A=ORM模型|D=sqlalchemy|S=none|RD=./README.ai
 """
 项目记忆数据模型
 

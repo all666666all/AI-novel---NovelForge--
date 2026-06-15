@@ -1,4 +1,3 @@
-# AIMETA P=嵌入服务_文本向量化|R=文本嵌入_向量生成|NR=不含存储逻辑|E=EmbeddingService|X=internal|A=嵌入生成|D=openai|S=none|RD=./README.ai
 """
 嵌入服务 (EmbeddingService)
 

@@ -1,4 +1,3 @@
-# AIMETA P=章节蓝图模型_节奏和伏笔元数据|R=章节蓝图表|NR=不含业务逻辑|E=ChapterBlueprint|X=internal|A=ORM模型|D=sqlalchemy|S=none|RD=./README.ai
 """
 章节蓝图数据模型
 

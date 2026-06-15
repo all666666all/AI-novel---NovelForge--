@@ -1,4 +1,3 @@
-<!-- AIMETA P=自定义提示_提示消息组件|R=提示弹窗|NR=不含业务逻辑|E=component:CustomAlert|X=internal|A=提示组件|D=vue|S=dom|RD=./README.ai -->
 <template>
   <Teleport to="body">
     <transition

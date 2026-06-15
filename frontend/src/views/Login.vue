@@ -1,4 +1,3 @@
-<!-- AIMETA P=登录页_用户登录|R=登录表单_认证|NR=不含注册功能|E=route:/login#component:Login|X=ui|A=登录表单|D=vue|S=dom,net,storage|RD=./README.ai -->
 <template>
   <div class="flex flex-col items-center justify-center min-h-screen p-4 md-surface-dim">
     <!-- Logo / Title -->

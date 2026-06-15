@@ -1,0 +1,64 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NovelForge">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.55" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#3b0764"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="120" y1="110" x2="640" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <radialGradient id="ember" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="0.6" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="quill" x1="980" y1="70" x2="1090" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+
+  <!-- faint dotted grid -->
+  <g fill="#ffffff" opacity="0.05">
+    <circle cx="60" cy="60" r="2"/><circle cx="120" cy="60" r="2"/><circle cx="180" cy="60" r="2"/>
+    <circle cx="60" cy="240" r="2"/><circle cx="120" cy="240" r="2"/><circle cx="180" cy="240" r="2"/>
+    <circle cx="1140" cy="60" r="2"/><circle cx="1080" cy="60" r="2"/>
+    <circle cx="1140" cy="240" r="2"/><circle cx="1080" cy="240" r="2"/>
+  </g>
+
+  <!-- forge embers -->
+  <circle cx="1015" cy="205" r="80" fill="url(#ember)" opacity="0.55"/>
+  <g fill="#fcd34d">
+    <circle cx="965" cy="150" r="3" opacity="0.9"/>
+    <circle cx="1052" cy="120" r="2.4" opacity="0.8"/>
+    <circle cx="1090" cy="170" r="2" opacity="0.7"/>
+    <circle cx="940" cy="190" r="2.2" opacity="0.7"/>
+  </g>
+
+  <!-- quill -->
+  <g transform="rotate(8 1020 150)">
+    <path d="M1090 80 C1010 110 965 170 955 220 L975 220 C995 175 1035 130 1100 100 Z" fill="url(#quill)"/>
+    <path d="M1090 80 C1040 105 1005 150 985 205" stroke="#ede9fe" stroke-width="2" opacity="0.6" fill="none"/>
+    <rect x="947" y="214" width="34" height="8" rx="4" fill="#ede9fe" transform="rotate(-8 964 218)"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="90" y="150" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="78" font-weight="800" fill="url(#ink)" letter-spacing="-1">NovelForge</text>
+  <text x="92" y="196" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="400" fill="#c7d2fe">Plan, write &amp; refine long-form fiction with an AI co-author.</text>
+
+  <!-- chips -->
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600">
+    <rect x="92" y="226" width="118" height="34" rx="17" fill="#ffffff" opacity="0.08"/>
+    <text x="151" y="248" fill="#e0e7ff" text-anchor="middle">FastAPI</text>
+    <rect x="222" y="226" width="92" height="34" rx="17" fill="#ffffff" opacity="0.08"/>
+    <text x="268" y="248" fill="#e0e7ff" text-anchor="middle">Vue 3</text>
+    <rect x="326" y="226" width="84" height="34" rx="17" fill="#ffffff" opacity="0.08"/>
+    <text x="368" y="248" fill="#e0e7ff" text-anchor="middle">RAG</text>
+    <rect x="422" y="226" width="150" height="34" rx="17" fill="#ffffff" opacity="0.08"/>
+    <text x="497" y="248" fill="#e0e7ff" text-anchor="middle">Multi-version AI</text>
+  </g>
+</svg>

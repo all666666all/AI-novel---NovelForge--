@@ -1,0 +1,3 @@
+# Optional MySQL driver. Only needed when DB_PROVIDER=mysql.
+# Requires a C toolchain to build (already present in the Docker image).
+asyncmy==0.2.9

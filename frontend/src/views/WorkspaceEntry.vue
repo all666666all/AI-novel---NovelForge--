@@ -1,4 +1,3 @@
-<!-- AIMETA P=工作区入口_应用主入口|R=入口导航|NR=不含具体功能|E=route:/#component:WorkspaceEntry|X=ui|A=入口页|D=vue|S=dom|RD=./README.ai -->
 <template>
   <div class="flex items-center justify-center min-h-screen p-4 relative md-surface-dim">
     <!-- Material 3 Update Log Modal -->
@@ -91,7 +90,7 @@
       <div class="text-center p-8 fade-in">
         <!-- Title -->
         <h1 class="md-display-small mb-4" style="color: var(--md-on-surface);">
-          拯救小说家：创作中心
+          NovelForge · 创作中心
         </h1>
         <p class="md-body-large mb-12" style="color: var(--md-on-surface-variant);">
           从一个新灵感开始，或继续打磨你的世界。

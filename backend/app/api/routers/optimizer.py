@@ -1,4 +1,3 @@
-# AIMETA P=优化器API_内容优化建议|R=内容优化_建议生成|NR=不含内容修改|E=route:POST_/api/optimizer/*|X=http|A=优化建议|D=fastapi|S=net|RD=./README.ai
 """
 章节内容分层优化API
 支持对话、环境描写、心理活动、节奏韵律四个维度的深度优化

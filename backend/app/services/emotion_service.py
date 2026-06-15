@@ -1,4 +1,3 @@
-# AIMETA P=情感服务_情感曲线分析|R=情感分析_曲线生成|NR=不含内容生成|E=EmotionService|X=internal|A=服务类|D=redis|S=db,cache|RD=./README.ai
 import hashlib
 import logging
 from typing import List, Dict, Optional, Tuple

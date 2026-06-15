@@ -1,4 +1,3 @@
-# AIMETA P=知识检索服务_两层RAG检索过滤|R=检索_过滤_注入|NR=不含向量库实现|E=KnowledgeRetrievalService|X=internal|A=检索_过滤_POV裁剪|D=llm_service_vector_store_service|S=none|RD=./README.ai
 """
 知识检索服务 (KnowledgeRetrievalService)
 

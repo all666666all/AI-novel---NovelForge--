@@ -1,4 +1,3 @@
-<!-- AIMETA P=更新日志管理_系统更新记录|R=日志CRUD|NR=不含系统更新|E=component:UpdateLogManagement|X=ui|A=日志组件|D=vue|S=dom,net|RD=./README.ai -->
 <template>
   <n-card :bordered="false" class="admin-card">
     <template #header>

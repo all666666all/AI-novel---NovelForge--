@@ -1,4 +1,3 @@
-# AIMETA P=章节蓝图服务_蓝图元数据管理|R=蓝图CRUD_元数据生成|NR=不含生成逻辑|E=BlueprintService|X=internal|A=蓝图管理_元数据生成|D=llm_service|S=none|RD=./README.ai
 """
 章节蓝图服务 (BlueprintService)
 

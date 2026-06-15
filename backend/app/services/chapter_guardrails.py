@@ -1,4 +1,3 @@
-# AIMETA P=章节护栏_后置一致性检查|R=禁止角色检测_全知视角检测_登场协议检查|NR=不含LLM调用|E=none|X=internal|A=检测_验证|D=re|S=none|RD=./README.ai
 """
 ChapterGuardrails: 章节后置一致性检查服务
 

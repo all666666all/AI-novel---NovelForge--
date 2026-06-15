@@ -1,4 +1,3 @@
-// AIMETA P=日期工具_日期格式化函数|R=日期格式化_相对时间|NR=不含业务逻辑|E=formatDate|X=internal|A=formatDate函数|D=none|S=none|RD=./README.ai
 /**
  * 日期时间格式化工具函数
  */

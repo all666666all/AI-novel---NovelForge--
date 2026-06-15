@@ -1,4 +1,3 @@
-# AIMETA P=应用配置_环境变量加载和设置类|R=配置加载_环境变量|NR=不含业务逻辑|E=settings|X=internal|A=Settings类|D=pydantic|S=fs|RD=./README.ai
 from functools import lru_cache
 from pathlib import Path
 from typing import Optional
@@ -12,7 +11,7 @@ class Settings(BaseSettings):
     """应用全局配置，所有可调参数集中于此，统一加载自环境变量。"""
 
     # -------------------- 基础应用配置 --------------------
-    app_name: str = Field(default="AI Novel Generator API", description="FastAPI 文档标题")
+    app_name: str = Field(default="NovelForge API", description="FastAPI 文档标题")
     environment: str = Field(default="development", description="当前环境标识")
     debug: bool = Field(default=True, description="是否开启调试模式")
     allow_registration: bool = Field(
@@ -47,7 +46,7 @@ class Settings(BaseSettings):
         description="完整的数据库连接串，填入后覆盖下方数据库配置"
     )
     db_provider: str = Field(
-        default="mysql",
+        default="sqlite",
         env="DB_PROVIDER",
         description="数据库类型，仅支持 mysql 或 sqlite"
     )
@@ -55,7 +54,7 @@ class Settings(BaseSettings):
     mysql_port: int = Field(default=3306, env="MYSQL_PORT", description="MySQL 端口")
     mysql_user: str = Field(default="root", env="MYSQL_USER", description="MySQL 用户名")
     mysql_password: str = Field(default="", env="MYSQL_PASSWORD", description="MySQL 密码")
-    mysql_database: str = Field(default="arboris", env="MYSQL_DATABASE", description="MySQL 数据库名称")
+    mysql_database: str = Field(default="novelforge", env="MYSQL_DATABASE", description="MySQL 数据库名称")
     sqlite_db_path: Optional[str] = Field(
         default=None,
         env="SQLITE_DB_PATH",
@@ -180,8 +179,8 @@ class Settings(BaseSettings):
     email_from: Optional[str] = Field(default=None, env="EMAIL_FROM", description="邮件发送方显示名或邮箱")
 
     model_config = SettingsConfigDict(
-        # 优先使用实际部署的 .env，其次兼容旧的默认配置文件
-        env_file=("backend/.env", ".env", "new-backend/.env"),
+        # Load from repo-root .env or backend/.env (relative to the process CWD)
+        env_file=(".env", "backend/.env"),
         env_file_encoding="utf-8",
         extra="ignore"
     )
@@ -214,7 +213,7 @@ class Settings(BaseSettings):
     @validator("db_provider", pre=True)
     def _normalize_db_provider(cls, value: Optional[str]) -> str:
         """统一数据库类型大小写，并限制为受支持的驱动。"""
-        candidate = (value or "mysql").strip().lower()
+        candidate = (value or "sqlite").strip().lower()
         if candidate not in {"mysql", "sqlite"}:
             raise ValueError("DB_PROVIDER 仅支持 mysql 或 sqlite")
         return candidate
@@ -260,8 +259,8 @@ class Settings(BaseSettings):
                 if not db_path.is_absolute():
                     db_path = (project_root / db_path).resolve()
             else:
-                # SQLite 默认使用 storage/arboris.db，并转换为绝对路径以避免运行目录差异
-                db_path = (project_root / "storage" / "arboris.db").resolve()
+                # SQLite 默认使用 storage/novelforge.db，并转换为绝对路径以避免运行目录差异
+                db_path = (project_root / "storage" / "novelforge.db").resolve()
             return f"sqlite+aiosqlite:///{db_path}"
 
         # MySQL 分支：统一对密码进行 URL 编码，避免特殊字符破坏连接串

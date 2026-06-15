@@ -1,4 +1,3 @@
-# AIMETA P=角色知识管理_主角认知建模|R=知识库_角色出场_认知约束|NR=不含内容生成|E=CharacterKnowledgeManager|X=internal|A=管理器类|D=none|S=none|RD=./README.ai
 """
 主角认知建模和角色出场管理模块
 实现主角视角约束和角色自然引入

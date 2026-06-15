@@ -1,4 +1,3 @@
-# AIMETA P=情感分析器_基础情感识别|R=关键词匹配_情感评分|NR=不含多维分析|E=EmotionAnalyzer|X=internal|A=分析器类|D=none|S=none|RD=./README.ai
 """情感分析工具函数"""
 import re
 from typing import Optional, Tuple

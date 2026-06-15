@@ -1,4 +1,3 @@
-# AIMETA P=伏笔分析任务_异步伏笔检测|R=异步伏笔分析_提醒生成|NR=不含同步分析|E=celery_task:analyze_foreshadowing|X=job|A=Celery任务|D=celery,redis|S=db,cache|RD=./README.ai
 """伏笔管理异步任务"""
 import logging
 import re

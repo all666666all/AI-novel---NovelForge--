@@ -1,4 +1,3 @@
-<!-- AIMETA P=评审详情弹窗_章节评审展示|R=评审结果展示|NR=不含评审逻辑|E=component:WDEvaluationDetailModal|X=ui|A=评审弹窗|D=vue|S=dom|RD=./README.ai -->
 <template>
   <div v-if="show" class="md-dialog-overlay">
     <div class="md-dialog w-full max-w-4xl m3-eval-dialog flex flex-col">

@@ -1,4 +1,3 @@
-# AIMETA P=故事轨迹分析_6种故事形状识别|R=形状识别_关键点检测|NR=不含内容生成|E=StoryTrajectoryAnalyzer|X=internal|A=分析器类|D=none|S=none|RD=./README.ai
 """
 故事轨迹分析模块
 基于情感曲线识别 6 种基本故事形状，并提供轨迹分析

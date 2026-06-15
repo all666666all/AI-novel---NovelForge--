@@ -1,4 +1,3 @@
-<!-- AIMETA P=蓝图编辑_蓝图编辑弹窗|R=蓝图编辑表单|NR=不含展示功能|E=component:BlueprintEditModal|X=internal|A=编辑弹窗|D=vue|S=dom|RD=./README.ai -->
 <template>
   <transition
     enter-active-class="transition-opacity duration-200"
@@ -73,7 +72,7 @@
 import { ref, watch, defineProps, defineEmits } from 'vue';
 import ChapterOutlineEditor from './ChapterOutlineEditor.vue';
 import KeyLocationsEditor from './KeyLocationsEditor.vue';
-import CharactersEditor from './CharactersEditorEnhanced.vue';
+import CharactersEditor from './CharactersEditor.vue';
 import RelationshipsEditor from './RelationshipsEditor.vue';
 import FactionsEditor from './FactionsEditor.vue';
 import type { ChapterOutline } from '@/api/novel';

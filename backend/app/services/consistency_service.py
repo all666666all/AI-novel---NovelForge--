@@ -1,4 +1,3 @@
-# AIMETA P=一致性检查服务_剧情逻辑矛盾检测|R=一致性检查_冲突检测_修复建议|NR=不含生成逻辑|E=ConsistencyService|X=internal|A=一致性检查_自动修复|D=llm_service|S=none|RD=./README.ai
 """
 一致性检查服务 (ConsistencyService)
 

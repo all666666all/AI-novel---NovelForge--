@@ -1,4 +1,3 @@
-# AIMETA P=情感分析任务_异步情感曲线计算|R=异步情感分析_缓存更新|NR=不含同步分析|E=celery_task:analyze_emotion|X=job|A=Celery任务|D=celery,redis|S=db,cache|RD=./README.ai
 import logging
 from typing import List, Optional
 from app.config.celery_config import app

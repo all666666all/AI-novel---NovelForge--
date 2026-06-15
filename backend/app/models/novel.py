@@ -1,4 +1,3 @@
-# AIMETA P=小说模型_项目和章节定义|R=小说表_章节表_版本表|NR=不含业务逻辑|E=Novel_Chapter_ChapterVersion|X=internal|A=ORM模型|D=sqlalchemy|S=none|RD=./README.ai
 from __future__ import annotations
 
 from datetime import datetime

@@ -1,4 +1,3 @@
-# AIMETA P=封面服务_小说封面生成|R=封面生成_图像API|NR=不含业务逻辑|E=CoverService|X=internal|A=服务类|D=openai,httpx|S=net,fs|RD=./README.ai
 """
 封面生成服务：使用 Gemini 图像生成模型创建小说封面。
 """

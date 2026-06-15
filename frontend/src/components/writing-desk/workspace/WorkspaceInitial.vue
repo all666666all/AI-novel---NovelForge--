@@ -1,4 +1,3 @@
-<!-- AIMETA P=初始工作区_初始状态展示|R=初始引导|NR=不含内容编辑|E=component:WorkspaceInitial|X=internal|A=初始状态|D=vue|S=dom|RD=./README.ai -->
 <template>
   <div class="h-full flex items-center justify-center">
     <div class="md-card md-card-outlined p-8 text-center max-w-md" style="border-radius: var(--md-radius-xl);">

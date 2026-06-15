@@ -1,8 +1,7 @@
-<!-- AIMETA P=注册页_用户注册|R=注册表单|NR=不含登录功能|E=route:/register#component:Register|X=ui|A=注册表单|D=vue|S=dom,net|RD=./README.ai -->
 <template>
   <div class="flex flex-col items-center justify-center min-h-screen p-4">
     <div class="mb-12">
-      <TypewriterEffect text="拯救小说家" />
+      <TypewriterEffect text="NovelForge" />
     </div>
     <div v-if="allowRegistration" class="w-full max-w-md p-8 space-y-8 bg-white/70 backdrop-blur-xl rounded-2xl shadow-xl">
       <div>

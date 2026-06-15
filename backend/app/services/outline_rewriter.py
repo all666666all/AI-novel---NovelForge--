@@ -1,4 +1,3 @@
-# AIMETA P=大纲转写器_标签移除和后处理|R=标签移除_列表转换_视角验证|NR=不含内容生成|E=OutlineRewriter_PostProcessor|X=internal|A=转写器类|D=none|S=none|RD=./README.ai
 """
 大纲转写器和后处理过滤模块
 将结构化大纲转化为自然叙事，移除显式标签

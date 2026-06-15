@@ -1,4 +1,3 @@
-# AIMETA P=分析API_情感曲线和章节分析|R=情感分析_章节统计|NR=不含数据修改|E=route:GET_/api/analytics/*|X=http|A=情感分析_统计查询|D=fastapi,sqlalchemy|S=db,cache|RD=./README.ai
 """
 情感曲线和伏笔追踪分析API
 """

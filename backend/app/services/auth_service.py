@@ -1,4 +1,3 @@
-# AIMETA P=认证服务_登录注册业务逻辑|R=登录_注册_令牌|NR=不含用户管理|E=AuthService|X=internal|A=服务类|D=jose,passlib|S=db|RD=./README.ai
 import asyncio
 import logging
 import random
@@ -229,7 +228,7 @@ class AuthService:
                                 如非本人操作，请忽略此邮件。
                             </p>
                             <p style=\"font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #9ca3af; margin: 8px 0 0;\">
-                                &copy; {time.strftime('%Y')} 拯救小说家. All rights reserved.
+                                &copy; {time.strftime('%Y')} NovelForge. All rights reserved.
                             </p>
                         </td>
                     </tr>
